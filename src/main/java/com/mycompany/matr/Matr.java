@@ -93,7 +93,7 @@ public class Matr {
         System.out.println("Ingrese el número de columnas que tendrá la matriz");
         var columnas = lectura.nextInt();
         
-        var matriz = new int [2][3];
+        var matriz = new int [filas][columnas];
         /*
         System.out.println("Ingrese el valor correspondiente a la posición 0,0");
         matriz [0][0] = lectura.nextInt();
